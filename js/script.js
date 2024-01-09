@@ -75,6 +75,14 @@ createApp({
             else{
                 this.currentSlide = this.slides.length-1;
             }
+        },
+        giveActiveClass(indexThumb){
+            if(this.currentSlide == indexThumb){
+                return 'active';
+            }
+            else{
+                return '';
+            }
         }
 
     }
