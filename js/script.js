@@ -83,6 +83,9 @@ createApp({
             else{
                 return '';
             }
+        },
+        clickThumbSlide(indexThumb){
+            this.currentSlide = indexThumb;
         }
 
     }
